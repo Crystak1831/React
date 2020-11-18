@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="11faecd9-5c04-4105-bf34-a5713212dd2b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/todolist" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +64,8 @@
       <workItem from="1605501654125" duration="1464000" />
       <workItem from="1605561272540" duration="432000" />
       <workItem from="1605588715980" duration="608000" />
+      <workItem from="1605731972358" duration="3419000" />
+      <workItem from="1605736014830" duration="839000" />
     </task>
     <servers />
   </component>
@@ -75,5 +77,13 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="258" y="118" key="#ESLint/0.23.1440.877@0.23.1440.877" timestamp="1605502148394" />
+    <state x="206" y="118" key="SettingsEditor" timestamp="1605737031175">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="206" y="118" key="SettingsEditor/0.23.1440.877/-1920.-157.1920.1057@0.23.1440.877" timestamp="1605737031175" />
+    <state x="344" y="224" width="670" height="676" key="search.everywhere.popup" timestamp="1605735024654">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="344" y="224" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-1920.-157.1920.1057@0.23.1440.877" timestamp="1605735024654" />
   </component>
 </project>

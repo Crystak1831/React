@@ -45,6 +45,14 @@ class App extends React.Component {
         this.setState({showState: !doesShow});
     }
 
+    deleteNameHandler=(personIndex)=>{
+        //fetch persons
+        const persons = this.state.persons;
+        persons.splice(personIndex,1);
+        //update persons
+        this.setState({persons: persons})
+    }
+
     render() {
 
         let persons = null;
@@ -53,18 +61,24 @@ class App extends React.Component {
             // return some jsx code
             persons = (
             <div>
+                {this.state.persons.map((person,index) => {
+                    return <Person name = {person.name}
+                                    age = {person.age}
+                                   click = {() => this.deleteNameHandler(index)}
+                    />
+                })}
                 {/*use arrow function, but don't use this one, since it not efficient*/}
                 {/*<button onClick={() => {this.switchHandler('max')}}>toggle</button>*/}
-                <Person name = {this.state.persons[0].name}
-                        age = {this.state.persons[0].age}
-                        click = {this.switchHandler.bind(this,'max')}
-                        changed = {this.changeNameHandler}
-                />
+                {/*<Person name = {this.state.persons[0].name}*/}
+                {/*        age = {this.state.persons[0].age}*/}
+                {/*        click = {this.switchHandler.bind(this,'max')}*/}
+                {/*        changed = {this.changeNameHandler}*/}
+                {/*/>*/}
 
-                <Person name ={this.state.persons[1].name}
-                        age = {this.state.persons[1].age}
-                >my hobby is swimming</Person>
-                <Person name = {this.state.persons[2].name}/>
+                {/*<Person name ={this.state.persons[1].name}*/}
+                {/*        age = {this.state.persons[1].age}*/}
+                {/*>my hobby is swimming</Person>*/}
+                {/*<Person name = {this.state.persons[2].name}/>*/}
             </div>
             )
         }
